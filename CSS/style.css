@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    background-image: url(/GYM-WEBSITE/images/bg.jpg);
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+.header{
+    display: inline-block;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 25px;
+}
+
+.mid{
+    display: inline-block;
+    position: relative;
+    left: 620px;
+    top: 25px;
+    margin: auto ;
+}
+
+.right{
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    top: 25px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img{
+    width: 110px;
+    height: 110px;
+}
+
+.logo-caption{
+    display:block;
+    text-align: center;
+}
+
+.btn{
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+    border: 2px solid grey;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.container{
+    margin: 140px 900px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: white;
+    display: inline-block;
+    padding: 2px 2px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.form-group input{
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+.yoyo{
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid grey;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+}
+
+.yoyo:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.container h1{
+    position: relative;
+    left: 50px;
+}
